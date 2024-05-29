@@ -55,7 +55,9 @@ que hayan tenido descuento.
 
 Script en [proccesing_table_2_3.py](src/transform/processing_table_2_3.py).
 
-![products_sent.png](img/products_sent.png)
+![products_sent.png](img/products_sold.png)
+![products_sold.png](img/products_sent.png)
+
 
 ### 4. Realizar un proceso automático en Airflow
 
@@ -70,8 +72,5 @@ Dag en el webserver de Airflow.
 
 ![dag](img/airflow.png)
 ![dag](img/dag.png)
-
-Resultados en la db de Hive.
-
-![products_sent.png](img/products_sent.png)
+![products_sent.png](img/products_sold.png)
 ![products_sold.png](img/products_sent.png)
