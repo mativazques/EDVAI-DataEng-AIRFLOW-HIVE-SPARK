@@ -45,7 +45,7 @@ que hayan tenido descuento.
 
 Script en [proccesing_table_2_3.py](src/transform/processing_table_2_3.py)
 
-![products_sent.png](img/products_sent.png)
+![products_sent.png](img/products_sold.png)
 ![products_sold.png](img/products_sent.png)
 
 
@@ -60,5 +60,5 @@ Script en [sqoop-airflow.py](src/dag/sqoop-airflow.py)
 
 ![dag](img/airflow.png)
 ![dag](img/dag.png)
-![products_sent.png](img/products_sent.png)
+![products_sent.png](img/products_sold.png)
 ![products_sold.png](img/products_sent.png)
