@@ -54,7 +54,7 @@ with DAG(
 
         processing_table_2_3 = BashOperator(
             task_id='processing_table_2_3',
-            bash_command='ssh hadoop@172.17.0.2 /home/hadoop/spark/bin/spark-submit --files /home/hadoop/hive/conf/hive-site.xml /home/hadoop/scripts/clase9/transform/processing_table_1.py',
+            bash_command='ssh hadoop@172.17.0.2 /home/hadoop/spark/bin/spark-submit --files /home/hadoop/hive/conf/hive-site.xml /home/hadoop/scripts/clase9/transform/processing_table_2_3.py',
         )
 
     comienza_proceso >> Ingest >> Process >> finaliza_proceso
